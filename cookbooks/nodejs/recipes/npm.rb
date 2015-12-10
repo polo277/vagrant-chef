@@ -26,6 +26,3 @@ when 'source'
 else
   Chef::Log.error('No install method found for npm')
 end
-nodejs_npm "express"
-nodejs_npm "express-generator"
-nodejs_npm "mangodb"
